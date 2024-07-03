@@ -1,0 +1,205 @@
+/* All Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ui,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All Common Css End */
+/* Header Part Start */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	color:#fff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    transition:.45 ;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	color:#4756DF;
+}
+.contact_button{
+    padding: 15px 42px;
+    background: #6A4DF4;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight:600;
+}
+/* Header Part End */
+
+/* Bannrt Part Start */
+#banner_part{
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner_overly{
+    padding-top: 330px;
+    padding-bottom: 165px;
+    background: rgba(0, 0, 0, 0.62);
+}
+.banner_text h1{
+    font-family: "Inter", sans-serif;
+    font-size: 75px;
+    font-weight:700; 
+    line-height: 120%; 
+}
+.banner_text p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    line-height: 26px; 
+    padding: 0 158px;
+}
+.banner_text a{
+    padding: 15px 42px;
+    background: #6A4DF4;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight:600;   
+}    
+/* Banner Part Start */
+/*Countre Part Start */
+#counter_part{
+   padding-top: 170px; 
+   padding-bottom: 80px;
+}
+.counter_left_text p{
+    padding-bottom: 27px;
+    color: #6A4DF4;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+.counter_left_text h3{
+    color: #151515;
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 38px;
+}
+.counter_item h3{
+    color: #151515;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.counter_item p{
+    color: #737373;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+
+}
+.extra_bg{
+    background:#E0FFF9 ;
+    padding: 85px 50px;
+}
+/*Countre Part End */
+/*Service Part Start*/
+#service_part{
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+.text h1{
+    color: #151515;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.text p{
+    color: #737373;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding:0 250px;
+    padding-bottom: 48px;
+    line-height: 26px;
+}
+.service_item{
+    padding:55px;
+    transition: .4s;
+}
+.service_item:hover{
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+}
+
+.service_text h3{
+    color: #151515;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.service_text p{
+    color: #737373;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/*Service Part End */
+/* Work Part Start */
+#work_part{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: #f3f3f3;
+}
+.work_item:hover{
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+}
+.work_text h3{
+    color: #151515;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.work_text p{
+    color: #737373;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0 45px;
+
+}
+
+/* Work Part End */
+/* Why Choose Agency Part Start */
+
+
+/* Why Choose Agency Part End */
